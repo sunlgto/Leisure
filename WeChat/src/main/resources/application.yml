@@ -1,0 +1,15 @@
+server:
+  port: 80
+appId: wxf97af776ca325ab0
+secret: ea10e045fa8de32e4485ba79b242433b
+tmplId: shBjA7bBwr3sSgmJfEak1iz714btikhlU4ga0xRg01A  #模版Id
+#Pbqg6_JBX4zPYNXj3ayA22OGnUalOzYUrZcomdgkKCQ
+#0DdiaLfBE8W3NHB-gj-gTgMJJUW2Ca-pDvfr4i4LRKU
+#shBjA7bBwr3sSgmJfEak1iz714btikhlU4ga0xRg01A  helloWord
+openUserId: oAPMT513PrmEBSHSjQK7kHf-YJuc,oAPMT505BgwuyetmVwUWktx5shcE  #接收消息用户openid多个用户英文逗号分隔，此处不配置则默认发送给全部用户（扫码关注过对用户）
+#oAPMT513PrmEBSHSjQK7kHf-YJuc  local
+#oAPMT5-asPAibWF3EC2w8wMwTYcc  yaba
+tokenUrl: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${appid}&secret=${secret}
+birthday: 02-15 00:00:00 #生日
+beginDate: 2022-11-26 00:00:00 #相遇日期
+city: 南京 #用于获取天气信息
